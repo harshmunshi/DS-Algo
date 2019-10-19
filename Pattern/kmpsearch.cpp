@@ -48,9 +48,7 @@ using namespace std;
 
 void computeAuxilliary(char* pat, int* aux);
 
-    void
-    kmpsearch(char *pat, char *txt)
-{
+void kmpsearch(char *pat, char *txt) {
   int M = strlen(pat);
   int N = strlen(txt);
 
